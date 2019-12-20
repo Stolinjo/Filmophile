@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #24252A;
+    font-size: 16px;
+    background-repeat: no-repeat;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px;
+}
+h2{
+    color: orange;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+a:hover{
+    color: orange;
+}
+.centerd{
+    width: 1000px;
+    margin: 0px auto;
+}
+#header{
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 10%;
+}
+#logo{
+    border-radius: 15%;;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+    margin: 30px 0px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+ul li a{
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: orange;
+    transition: all 0.3s ease 0s;
+}
+#content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.director{
+    display:flex;
+    flex-direction: row;
+    width:1000px;
+    height: 300px;
+    padding: 15px 15px 15px 0px;
+    margin-bottom: 5px;
+}
+.director img{
+    float: left;
+    width: 20%;
+}
+.aboutDirector .readMore{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+.aboutDirector{
+    flex-direction: column;
+    padding: 0px 20px;
+    position: relative;
+}
+#footer{
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 10%;
+}
+#copyRight{
+    font-size: 12px;
+    margin: 5px;
+}
+.container{
+    color: #edf0f1;
+}
+.containter input {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+input[type=submit] {
+    width: 150px;
+    background-color: orange;
+    color: #edf0f1;
+    border: none;
+}
+input[type=submit]:hover {
+    cursor: pointer;
+  }
+#social ul{
+    list-style: none;
+    margin: 0px;    
+}
+#social ul li{
+    display: inline-block;
+}
